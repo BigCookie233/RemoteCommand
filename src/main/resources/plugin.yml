@@ -2,3 +2,9 @@ name: RemoteCommand
 version: 0.1-SNAPSHOT
 main: io.github.bigcookie233.remotecommand.RemoteCommand
 author: BigCookie233
+commands:
+  remotecommand:
+    description: RemoteCommand
+    usage: /remotecommand <command> <params>
+    permission: remotecommand.command.remotecommand
+    aliases: rm
