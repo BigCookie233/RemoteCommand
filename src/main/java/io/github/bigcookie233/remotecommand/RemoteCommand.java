@@ -10,5 +10,6 @@ public class RemoteCommand extends JavaPlugin {
     public void onEnable() {
         this.saveDefaultConfig();
         this.config = this.getConfig();
+        this.getCommand("remotecommand").setExecutor(new onCommand());
     }
 }

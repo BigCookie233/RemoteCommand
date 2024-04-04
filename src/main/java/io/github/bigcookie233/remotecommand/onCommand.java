@@ -7,6 +7,12 @@ import org.bukkit.command.CommandSender;
 public class onCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        return false;
+        try {
+
+        } catch (Exception exception) {
+            exception.printStackTrace();
+            return false;
+        }
+        return true;
     }
 }
