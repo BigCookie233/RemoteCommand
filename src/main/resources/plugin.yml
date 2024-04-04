@@ -1,0 +1,4 @@
+name: RemoteCommand
+version: 0.1-SNAPSHOT
+main: io.github.bigcookie233.remotecommand.RemoteCommand
+author: BigCookie233
